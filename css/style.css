@@ -1,0 +1,81 @@
+h1{
+    color:brown;
+    text-align: center;
+    text-decoration: underline;
+}
+input:focus{
+    background-color: rgb(5, 54, 79);
+}
+.submit{
+    background-color: green;
+    color: white;
+    border-color: rgb(244, 126, 9);
+    border-radius: 20px;
+    
+}
+.cancel{
+    background-color: red;
+    color: white;
+    border-color:yellow;
+    border-radius: 30px;
+    
+}
+.submit:hover{
+    background-color:navy;
+}
+.cancel:hover{
+    background-color: rgb(78, 101, 107);
+}
+.table{
+    padding:20px 0px 0px 700px;
+}
+.nav{
+    padding:20px;
+}
+.table form{
+    display: table;
+    text-align: center;
+}
+.table p{
+    display: table-row;
+    text-align: center;
+}
+.table label{
+    display: table-cell;
+    text-align: center;
+}
+.table input{
+    display: table-cell;
+    width: 200px;
+    height: 20px;
+}
+.table select{
+    width: 210px;
+    height: 25px;
+}
+body{
+    background-color: rgb(112, 171, 171);
+}
+
+
+/*media query*/
+@media (min-width:375px) and (max-width:680px){
+    .table{
+        padding: 20px 0px 0px 0px;
+    }
+}
+@media (min-width:601px) and (max-width:768px){
+    .table{
+        padding: 20px 0px 0px 100px;
+    }
+}
+@media (min-width:769px) and (max-width:1200px){
+    .table{
+        padding: 20px 0px 0px 250px;
+    }
+}
+@media (min-width:1200px) and (max-width:1400px){
+    .table{
+        padding: 20px 0px 0px 400px;
+    }
+}
